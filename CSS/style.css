@@ -1,0 +1,121 @@
+*
+{
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+section
+{
+    padding: 60px 0px;
+    
+}
+.container
+{
+    padding: 0px 60px;
+}
+.row
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.headers
+{
+    font-size: 2rem;
+    color: gold;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+header
+{
+    margin-top: -100px;
+}
+.navbar
+{
+    background-color: red;
+    padding: 30px 50px;
+
+}
+.nav-row
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbrand>a
+{
+    color: white;
+}
+.nav-menu>ul>li{
+    list-style: none;
+    display: inline;
+}
+.nav-menu>ul>li>a{
+    text-decoration: none;
+    color: white;
+    padding: 0px 20px;
+}
+
+.bg-img
+{
+    background:url("/Images/istockphoto-500331102-1024x1024.jpg") center center no-repeat fixed;
+    background-size: cover;
+    height: 100vh;
+    width:100%;
+   
+}
+
+.abtimglayout,.abtcntlayout
+{
+    width: 50%;
+    margin-top: 20px;
+  
+    box-sizing: border-box;
+}
+.abtimg
+{
+    background:url("/Images/istockphoto-500331102-1024x1024.jpg") center center no-repeat fixed;
+    background-size: cover;
+    height: 60vh;
+    width:100%;
+}
+.abtcnt>p{
+    padding: 50px 20px;
+    text-align: justify;
+    line-height: 1.8rem;
+    color: red;
+}
+.card-layout
+{
+    width: 30%;
+    box-sizing: border-box;
+    height: 400px;
+    background-color: red;
+    border: 4px solid black;
+    margin: 0px auto;
+
+}
+.map-layout,.form-layout
+{
+    width: 50%;
+    box-sizing: border-box;
+}
+.mb
+{
+    margin-bottom: 20px;
+}
+.textbox-layout
+{
+    width: 100%;
+    
+}
+.contact-form
+{
+    padding: 0px 30px;
+}
+.form-control
+{
+    width: 100%;
+    padding: 15px 20px;
+}
